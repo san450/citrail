@@ -22,17 +22,10 @@
   </modules>
 
   <distributionManagement>
-    <repository>
-        <uniqueVersion>false</uniqueVersion>
-        <id>test1</id>
-        <name>nexuxRepository</name>
-        <url>http://192.168.123.10:8081/repository/test1</url>
-        <layout>default</layout>
-    </repository>
-   <site>
+    <site>
       <id>site-server</id>
       <name>Test Project Site</name>
-      <url>http://192.168.123.10:8081/repository/test1/</url>
+      <url>file:///tmp/maven-project-site</url>
     </site>
   </distributionManagement>
 
