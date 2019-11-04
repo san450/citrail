@@ -29,11 +29,11 @@
         <url>http://192.168.123.10:8081/repository/test1</url>
         <layout>default</layout>
     </repository>
-   # <site>
-    #  <id>site-server</id>
-     # <name>Test Project Site</name>
-     # <url>http://192.168.123.10:8081/repository/test1/</url>
-   # </site>
+   <site>
+      <id>site-server</id>
+      <name>Test Project Site</name>
+      <url>http://192.168.123.10:8081/repository/test1/</url>
+    </site>
   </distributionManagement>
 
   <build>
