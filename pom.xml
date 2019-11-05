@@ -218,14 +218,14 @@
   </prerequisites>
 <distributionManagement>
 	<repository>
-		<id>release</id>
-		<name>Release</name>
+		<id>maven-releases</id>
+		<name>maven-releases</name>
 		<url>http://192.168.123.10:8081/repository/maven-releases/</url>
 	</repository>
 
 	<sanpshotRepository>
-		<id>snapshots</id>
-		<name>Snapshots</name>
+		<id>maven-snapshots</id>
+		<name>maven-snapshots</name>
 		<url>http://192.168.123.10:8081/repository/maven-snapshots/</url>
 	</sanpshotRepository>
 </distributionManagement>
