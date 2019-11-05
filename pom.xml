@@ -216,5 +216,17 @@
   <prerequisites>
     <maven>3.0.3</maven>
   </prerequisites>
+<distributionManagement>
+	<repository>
+		<id>release</id>
+		<name>Release</name>
+		<url>http://192.168.123.10:8081/repository/maven-releases/</url>
+	</repository>
 
+	<sanpshotRepository>
+		<id>snapshots</id>
+		<name>Snapshots</name>
+		<url>http://192.168.123.10:8081/repository/maven-snapshots/</url>
+	</sanpshotRepository>
+</distributionManagement>
 </project>
